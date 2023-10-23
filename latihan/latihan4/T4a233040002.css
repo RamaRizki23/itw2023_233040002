@@ -45,9 +45,14 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
+/* style */
 body {
     font: 16px/28px arial, italic;
     background-color: #eaeaea;
+    background-image: url(img/moroccan.png);
     color:#333;
 }
 
@@ -88,7 +93,42 @@ body {
     height: 280px;
     background-image: url(img/hero.jpg);
     background-size: cover;
-    background-position: 0,-180px;
+    background-position: 0 -180px;
     border-bottom: 5px solid lightskyblue;
     border-top: 5px solid salmon;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.content .penulis {
+    font-size: 11px;
+    margin-top: -5px;
+}
+
+.content .penulis a {
+    color: salmon;
+    text-decoration: none;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.footer {
+    background-color: #333;
+    padding: 10px;
+}
+
+.footer .copy {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
 }
