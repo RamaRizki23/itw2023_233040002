@@ -14,13 +14,23 @@ h1{
     text-align: right;
     font-style: italic;
  }
+ .putih {
+    color: white;
+    font-variant:small-caps;
+    }
 
+.putih:hover{
+    color: red;
+}
+.biru:hover{
+    background-color: blue;
+    color: white;
+}
  #kanan {
-        line-height: 30px;
-        text-align: right;}
+    line-height: 30px;
+    text-align: right;
+}
  #warnaoren { 
     text-align:center;
     color: rgb(255, 153, 0);}
- #putih {color: white;
-        font-variant:small-caps;
-        }
+ 
